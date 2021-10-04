@@ -52,9 +52,8 @@ body{
 .title{
      display: flex;
      justify-content: flex-start ;
-     font-family: 'TT Lakes-Bold';
-     font-size: 28px;
      margin-top: 24px;
+     margin-bottom: 20px;
 }
 .title__elem1{
      width: 4px;
@@ -66,6 +65,8 @@ body{
      transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .title__elem2{
+     font-family: 'TT Lakes-Bold';
+     font-size: 28px;
      margin-right: 16px;
      margin-left: 16px;
      font-size: 28px;
@@ -73,12 +74,18 @@ body{
      letter-spacing: -0.6px;
      color: #1B1C21;
 }
-.About-company{
+.title__icon{
+     display: none;
+}
+.title__img{
+     display: none;
+  }
+.company-submenu{
 display: flex;
 justify-content: flex-start ;
 overflow: auto;
 }
-.About-company__repair{
+.company-submenu__repair{
      text-align: center;
      border: 2px solid #B8FFEC;
      box-sizing: border-box;
@@ -91,7 +98,7 @@ overflow: auto;
      margin:5px;
      white-space:nowrap;
 }
-.About-company__services{
+.company-submenu__services{
      box-sizing: border-box;
      border-radius: 6px; 
      text-align: center;
@@ -103,7 +110,7 @@ overflow: auto;
      margin:5px;
      white-space:nowrap;
 }
-.About-company__block-text{
+.About-company{
      height: 90px;
      margin-top: 5%;
      margin-left: 5%;
@@ -125,11 +132,11 @@ overflow: auto;
      line-height: 24px;
      letter-spacing: -0.2px;
      color: #1B1C21;
-     margin-left: 5%;
+     margin-left: 1%;
 }
 .About-company__cps-img img{
-    width: 320px;
-    height: 230px;
+     width: 100%;
+     height: auto;
    }
 }
 
@@ -175,8 +182,6 @@ overflow: auto;
    .title{
         display: flex;
         justify-content: flex-start ;
-        font-family: 'TT Lakes-Bold';
-        font-size: 28px;
         margin-top: 24px;
    }
    .title__elem1{
@@ -196,12 +201,12 @@ overflow: auto;
         letter-spacing: -0.6px;
         color: #1B1C21;
    }
-   .About-company{
+   .company-submenu{
    display: flex;
    justify-content: flex-start ;
    overflow: auto;
    }
-   .About-company__repair{
+   .company-submenu__repair{
         text-align: center;
         border: 2px solid #B8FFEC;
         box-sizing: border-box;
@@ -214,7 +219,7 @@ overflow: auto;
         margin:5px;
         white-space:nowrap;
    }
-   .About-company__services{
+   .company-submenu__services{
         box-sizing: border-box;
         border-radius: 6px; 
         text-align: center;
@@ -226,7 +231,7 @@ overflow: auto;
         margin:5px;
         white-space:nowrap;
    }
-   .About-company__block-text{
+   .About-company{
          display: flex;
          justify-content: flex-start;
          height: 90px;
@@ -238,6 +243,10 @@ overflow: auto;
          letter-spacing: 0.2px;
          color: #1B1C21;
    } 
+   .About-company__text {
+     margin-right: 2%;
+     min-width: 50%;
+ }
    .About-company__continued{
         display: flex;
         justify-content: flex-start ;
@@ -249,11 +258,10 @@ overflow: auto;
         line-height: 24px;
         letter-spacing: -0.2px;
         color: #1B1C21;
-        margin-left: 5%;
+        margin-left: 1%;
    }
    .About-company__cps-img img{
-    width: 360px;
-    height: 260px;
+     height: auto;
     border-radius: 5px;
    }
 }
@@ -271,6 +279,7 @@ overflow: auto;
         justify-content:center;  
         justify-content:space-evenly;
         align-items:center;
+        display: none;
         
         background-color: #FFFFFF;
         box-sizing: border-box;
@@ -292,9 +301,8 @@ overflow: auto;
    .title{
         display: flex;
         justify-content: flex-start ;
-        font-family: 'TT Lakes-Bold';
-        font-size: 28px;
-        margin-top: 24px;
+        align-items:center;
+        margin-top: 40px;
    }
    .title__elem1{
         width: 4px;
@@ -312,14 +320,26 @@ overflow: auto;
         line-height: 40px;
         letter-spacing: -0.6px;
         color: #1B1C21;
+        margin-right: auto;
+        
    }
-   .About-company{
+   .title__icon{
+     display: block;
+     font-family: 'TT Lakes';
+     font-size: 16px;
+     margin-right: 8px;
+     margin-left: 32px;
+   }
+   .title__img{
+      display: block;
+   }
+   .company-submenu{
    display: flex;
    justify-content: flex-start ;
    flex-wrap: wrap;
    overflow: auto;
    }
-   .About-company__repair{
+   .company-submenu__repair{
         text-align: center;
         border: 2px solid #B8FFEC;
         box-sizing: border-box;
@@ -332,7 +352,7 @@ overflow: auto;
         margin:5px;
         white-space:nowrap;
    }
-   .About-company__services{
+   .company-submenu__services{
         box-sizing: border-box;
         border-radius: 6px; 
         text-align: center;
@@ -344,7 +364,7 @@ overflow: auto;
         margin:5px;
         white-space:nowrap;
    }
-   .About-company__block-text{
+   .About-company{
          display: flex;
          justify-content: flex-start;
          height: auto;
@@ -372,7 +392,7 @@ overflow: auto;
         line-height: 24px;
         letter-spacing: -0.2px;
         color: #1B1C21;
-        margin-left: 5%;
+        margin-left: 1%;
    }
    .About-company__cps-img {
     width: 50%;
