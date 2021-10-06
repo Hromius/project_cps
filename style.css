@@ -13,7 +13,7 @@
     src: local('fonts/TTLakes-Bold'), local('TTLakes-Bold'),
             url('fonts/TTLakes-Bold.woff') format('woff'),
             url('fonts/TTLakes-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;}
 
 @media (min-width: 320px) {   
